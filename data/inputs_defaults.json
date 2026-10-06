@@ -1,0 +1,29 @@
+{
+  "date": "2025-09-01",
+  "granularity": "hourly",
+  "demand_series_kWh": [
+    0.6, 0.5, 0.5, 0.6, 0.9, 1.2, 1.8, 2.4,
+    2.6, 2.4, 2.2, 2.0, 1.8, 1.9, 2.1, 2.6,
+    3.0, 3.2, 3.0, 2.4, 1.8, 1.2, 0.9, 0.8
+  ],
+  "battery": {
+    "capacity_kWh": 20.0,
+    "soc0_kWh": 10.0,
+    "max_charge_rate_kW": 5.0,
+    "max_discharge_rate_kW": 5.0,
+    "round_trip_efficiency": 0.95
+  },
+  "grid": {
+    "price_buy_per_kWh": 6.0,
+    "price_sell_per_kWh": 3.0,
+    "export_limit_kW": 5.0,
+    "import_limit_kW": 10.0
+  },
+  "params": {
+    "lambda_unmet": 100.0,
+    "mu_curtail": 2.0,
+    "cycle_penalty": 0.01,
+    "eta_charge": 0.9747,
+    "eta_discharge": 0.9747
+  }
+}
