@@ -17,6 +17,7 @@ url = (
     f"latitude={latitude}&longitude={longitude}&"
     f"hourly=temperature_2m,windspeed_10m,shortwave_radiation,cloudcover,relative_humidity_2m&"
     f"start_date={start_date}&end_date={end_date}&timezone=auto"
+    
 )
 
 response = requests.get(url)
